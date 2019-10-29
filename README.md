@@ -12,6 +12,12 @@ Naming conventions is the bread and butter of the developer since variables act 
 The key to mastering poor naming convention is to create a believable name for a variable, method, or class while sneaking in false information. We can call this technique the **variable entrapment** since the victim will become trapped in a false line of logic. 
 Assume the following code:
 ```
+void doSomething(int a, int b) {
+    int quotient = obtainQuotient(a, b);
+    // usage of quotient as remainder
+}
+```
+```
 int obtainRemainder(int dividend, int divider) {
     return dividend % divider;
 }
@@ -22,4 +28,4 @@ int obtainQuotient(int divider, int dividend) {
     return divider % dividend;
 }
 ```
-It is important to note that the logic is maintained but a developer finds it much more difficult to interpret usage of `obtainRemainder(x, y)` than a falsely named `obtainQuotient(x, y)`.
+It is important to note that the logic is maintained but a developer finds it much more difficult to interpret usage of `obtainRemainder(x, y)` than a falsely named `obtainQuotient(x, y)`, incorrectly thinking that the given code performs as expected. 
