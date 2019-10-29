@@ -14,7 +14,7 @@ Assume the following code:
 ```
 void doSomething(int a, int b) {
     int quotient = obtainQuotient(a, b);
-    // usage of quotient as remainder
+    // proceed with usage of quotient as remainder with no comments
 }
 ```
 ```
@@ -28,4 +28,4 @@ int obtainQuotient(int divider, int dividend) {
     return divider % dividend;
 }
 ```
-It is important to note that the logic is maintained but a developer finds it much more difficult to interpret usage of `obtainRemainder(x, y)` than a falsely named `obtainQuotient(x, y)`, incorrectly thinking that the given code performs as expected. 
+It is important to note that the logic is maintained but a developer finds it much more difficult to interpret usage of a falsely named `obtainQuotient(x, y)`, incorrectly thinking that the given code performs as expected. 
