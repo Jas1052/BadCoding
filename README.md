@@ -7,9 +7,9 @@
 3. **Most importantly, make the code work.** If the code doesn't work, then it becomes tempting to start from scratch and your hard work will be for naught. If the code works but no one can interpret it, then it is inducted into the fabled *legacy code* and no one will dare to change it.
 ---
 #### Naming Conventions
-Naming conventions is the bread and butter of the developer since variables act as carriers of information. It is critical to completely make your variables utterely incomprehensible. While many amateurs will simply name their variables or classes `i` or `a`, to confuse other coders, this still makes it easy to understand with enough time and experience. Meanwhile, other malicious developers will make their efforts obvious through garbage values such as `23eli`, which leads to debuggers simply blackboxing the variables and reading through the logic. 
+Naming conventions is the bread and butter of the developer since variables act as carriers of information. It is critical to completely make your variables utterly incomprehensible. While many amateurs will simply name their variables or classes `i` or `a`, to confuse other coders, this still makes it easy to understand with enough time and experience. Meanwhile, other malicious developers will make their efforts obvious through garbage values such as `23eli`, which leads to debuggers simply blackboxing the variables and reading through the logic. 
 
-The key to mastering poor naming convention is to create a believable name for a variable, method, or class while sneaking in false information. We can call this technique the **variable entrapment** since the victim will become trapped in a false line of logic. 
+The key to mastering poor naming convention is to create a believable name for a variable, method, or class while sneaking in false information. We can call this technique **variable entrapment** since victims become trapped in a false line of logic. 
 Assume the following code:
 ```
 void doSomething(int a, int b) {
@@ -34,7 +34,7 @@ int obtainQuotient(int divider, int dividend) {
     return divider % dividend;
 }
 ```
-It is important to note that the logic is maintained but a developer finds it much more difficult to interpret usage of a falsely named `obtainQuotient(x, y)`, incorrectly thinking that the given code performs as expected. 
+It is important to note that the logic is maintained but a developer finds it much more difficult to interpret usage of a falsely named `obtainQuotient(x, y)`, creating incorrect assumptions about a block of code.
 
 Another set of powerful tools for the awful coder is ***V A G U E N E S S*** and repetition. Usage together expontentially makes code more difficult to read and will leave people with their head's scratching. 
 
