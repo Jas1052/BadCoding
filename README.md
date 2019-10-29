@@ -1,5 +1,5 @@
 # A Guide to Bad Coding
-### How to make your code unreadable, unusable, and consistently inconsistent.
+### How to make your code unreadable, unusable, and unremovable.
 ---
 ### Tenants of the Awful Coder
 1. **Do not follow any standards.** Rules are for losers and you are not one. If there is a general practice guideline, completely ignore it and be a free spirit. 
