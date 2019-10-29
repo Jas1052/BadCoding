@@ -14,7 +14,7 @@ Assume the following code:
 ```
 void doSomething(int a, int b) {
     int remainder = obtainRemainder(a, b);
-    // proceed with usage of remainder as remainder with no comments
+    // proceed with usage of remainder with no comments
 }
 ```
 ```
@@ -35,3 +35,22 @@ int obtainQuotient(int divider, int dividend) {
 }
 ```
 It is important to note that the logic is maintained but a developer finds it much more difficult to interpret usage of a falsely named `obtainQuotient(x, y)`, incorrectly thinking that the given code performs as expected. 
+
+Another set of powerful tools for the awful coder is ***V A G U E N E S S*** and repetition. Usage together expontentially makes code more difficult to read and will leave people with their head's scratching. 
+
+For example, if we have a set of summation tools, we can fail to name them:
+```
+int sum(int a, int b) {
+    return a + b;
+}
+int lessSum(int a, int b) {
+    return a + b - 1;
+}
+int sumsum(int a, int b) {
+    return a**b;
+}
+int sumAgain(int a) {
+    return a + a;
+}
+```
+The next reader, without delving into each method, will be left scratching their head and saying "What is the difference between any of these?" While this question can be answered by reading through every line in every method, this technique used in succession can incapacitate the developer's ability to debug and requires complete understanding of code in combination with patience beyond human capability. 
