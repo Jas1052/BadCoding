@@ -13,8 +13,8 @@ The key to mastering poor naming convention is to create a believable name for a
 Assume the following code:
 ```
 void doSomething(int a, int b) {
-    int quotient = obtainQuotient(a, b);
-    // proceed with usage of quotient as remainder with no comments
+    int remainder = obtainRemainder(a, b);
+    // proceed with usage of remainder as remainder with no comments
 }
 ```
 ```
@@ -23,6 +23,12 @@ int obtainRemainder(int dividend, int divider) {
 }
 ```
 We apply variable entrapment as such:
+```
+void operation(int a, int b) {
+    int quotient = obtainQuotient(a, b);
+    // proceed with usage of quotient as remainder with no comments
+}
+```
 ```
 int obtainQuotient(int divider, int dividend) {
     return divider % dividend;
