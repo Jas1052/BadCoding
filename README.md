@@ -40,16 +40,16 @@ Another set of powerful tools for the awful coder is ***V A G U E N E S S*** and
 
 For example, if we have a set of summation tools, we can fail to name them:
 ```
-int sum(int a, int b) {
+int math(int a, int b) {
     return a + b;
 }
-int lessSum(int a, int b) {
+int lessMath(int a, int b) {
     return a + b - 1;
 }
-int sumsum(int a, int b) {
+int math1(int a, int b) {
     return a**b;
 }
-int sumAgain(int a) {
+int mathmath(int a) {
     return a + a;
 }
 ```
