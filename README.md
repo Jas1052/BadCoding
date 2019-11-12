@@ -7,7 +7,7 @@
 3. **Most importantly, make the code work.** If the code doesn't work, then it becomes tempting to start from scratch and your hard work will be for naught. If the code works but no one can interpret it, then it is inducted into the fabled *legacy code* and no one will dare to change it.
 ---
 ### Why should you follow this guide when coding?
-Imagine a scenario where you are using this guide to do your work for some company. The company can't complain because the code you are writing fulfills the purpose it's supposed to. The company may one day realize, "Hey maybe we should hire a younger developer to take [insert your name here]'s place". The young developer may be able to do your job better, but the advantage to using our guide is that you'll be the only person who can understand the program. This will make you infinitely valuable to whoever you are working for, since eventually, you'll be the only employee to understand any of the company's software needs. The biggest takeaway from this is that our guide will provide you with job security for life if used correctly.
+Imagine a scenario where you are using this guide to do your work for some company. One day, the company has an ill-conceived notion that it might be possible to replace you with new talent. After all, it's possible that the fresh, young developer may be able to do your job better. At first, your co-workers are relieved to finally escape your onslaught of appaling code and illegible codebase. But they soon come to realize that although you produce garbage, this garbage is the foundation of the product and they will be the forsaken ones left to maintain it. It becomes clear, someone else less essential will need to go. One by one, you see them leave, defeated by the ebb and flow of the corporate environment. Eventually, you become the sole employee to understand any of the horrifying codebase, emboldened by years of survival and attrition. Before anyone realizes, the company now relies on your existance to survive. You have become the vestigial organ that cannot be cut off. Welcome to our guide.
 
 ---
 #### Naming Conventions
@@ -58,3 +58,9 @@ int mathmath(int a) {
 }
 ```
 The next reader, without delving into each method, will be left scratching their head and saying "What is the difference between any of these?" While this question can be answered by reading through every line in every method, this technique used in succession can incapacitate the developer's ability to debug and requires complete understanding of code in combination with patience beyond human capability. 
+
+#### Spacing
+#### Comments
+#### Functions and Method Organization
+#### Organization of Codebase
+### Constants File
